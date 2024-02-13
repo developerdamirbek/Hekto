@@ -1,9 +1,11 @@
-import { Route, Routes, Navigate } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import { MainLayout } from "./layout/main-layout";
 import { pages } from "./router/main-router";
 import { nanoid } from "nanoid";
 import { NotFound } from "./pages/404page/not-found";
 import { ProductDetail } from "./pages/product-detail";
+import { Login } from "./pages/login/login";
+
 
 function App() {
   return (
@@ -15,6 +17,7 @@ function App() {
           ))}
           <Route path="*" element={<NotFound/>} />
           <Route path="products/:id" element={<ProductDetail/>}/>
+          <Route path="login" element={<Login/>}/>
         </Route>
       </Routes>
     </>
