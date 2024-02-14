@@ -92,7 +92,7 @@ export const LoginCard = () => {
                         </p>
                     )}
                     <div className='mb-[28px]'>
-                        <Button type="submit" className="w-full rounded-md">
+                        <Button type="submit" className="w-full text-white rounded-md">
                             {isRegistering ? 'Register' : 'Login'}
                         </Button>
                     </div>

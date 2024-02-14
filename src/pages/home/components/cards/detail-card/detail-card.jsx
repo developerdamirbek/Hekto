@@ -43,7 +43,7 @@ export const DetailCard = ({ img, title, price, code }) => {
                             </p>
                         </div>
                         <div>
-                            <Button className="rounded-md">
+                            <Button className="rounded-md text-white">
                                 Add To Cart
                             </Button>
                         </div>

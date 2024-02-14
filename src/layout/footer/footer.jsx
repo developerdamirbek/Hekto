@@ -18,7 +18,7 @@ export const Footer = () => {
               </h1>
               <form className=' relative w-[337px] mb-[25px] '>
                 <Input type="email" variant="secondary" placeholder="Enter Email Address" className="w-[100%] border-2 border-transparent focus:border-2 py-[14px] text-[16px] pl-5" />
-                <Button className="absolute right-[2px] rounded-md top-[2px] bottom-[2px] text-[16px] px-6 py-[5px]" type="submit">
+                <Button className="absolute right-[2px] text-white rounded-md top-[2px] bottom-[2px] text-[16px] px-6 py-[5px]" type="submit">
                   Sign Up
                 </Button>
               </form>

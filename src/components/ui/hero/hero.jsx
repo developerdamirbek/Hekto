@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export const Hero = ({ title, page }) => {
     return (
@@ -7,8 +8,12 @@ export const Hero = ({ title, page }) => {
                 <div className='flex flex-col gap-[9px]'>
                     <h1 className=' font-josefinSans text-[36px] font-bold '>{title}</h1>
                     <div className='flex items-center gap-[6px]'>
-                        <p className='font-medium text-[16px]'>Home </p>
-                        <p className='font-medium text-[16px]'>.Pages</p>
+                        <Link to="/">
+                            <p className='font-medium text-[16px]'>Home </p>
+                        </Link>
+                        <Link to="/pages">
+                            <p className='font-medium text-[16px]'>. Pages .</p>
+                        </Link>
                         <p className='font-medium text-[16px] text-pink'>{page}</p>
                     </div>
                 </div>

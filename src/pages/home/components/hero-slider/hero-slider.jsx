@@ -37,7 +37,7 @@ export const HeroSlider = () => {
                   <h2 className='text-[16px] text-pink font-bold mb-2'>{item.name}</h2>
                   <h1 className='text-[53px] font-josefinSans font-bold max-w-[644px] mb-2'>{item.title}</h1>
                   <p className="text-subText font-bold text-[16px] mb-[27px] max-w-[529px]">{item.text}</p>
-                  <Button type='button' className="w-[163px]">
+                  <Button type='button' className="w-[163px] text-white">
                     Shop Now
                   </Button>
                 </div>

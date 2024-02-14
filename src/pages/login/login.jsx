@@ -5,7 +5,8 @@ import { LoginCard } from './components/login-card'
 export const Login = () => {
   return (
     <div>
-        <LoginCard/>
+      <Hero title="My Account" page="My Account"/>
+      <LoginCard />
     </div>
   )
 }

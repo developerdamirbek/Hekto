@@ -6,7 +6,7 @@ export const TrendingBanner = ({ img, name }) => {
         <div>
             <div>
                 <h3>{name}</h3>
-                <Button type="submit" className={'text-pink'} variant="text">
+                <Button type="submit" className={'text-pink '} variant="text">
                     Shop Now
                 </Button>
             </div>

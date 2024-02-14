@@ -27,7 +27,7 @@ export const NotFound = () => {
                         </div>
                         <div>
                             <Link to="/">
-                                <Button>
+                                <Button className="text-white">
                                     Back To Home
                                 </Button>
                             </Link>
